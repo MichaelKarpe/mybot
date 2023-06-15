@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mybot"
+version = "0.0.1"
+description = "mybot: my Chatbot framework"
+license = "MIT"
+authors = [
+    "Michael Karpe <michael.karpe@berkeley.edu>"
+]
+readme = "README.md"
+repository = "https://github.com/MichaelKarpe/mybot"
+homepage = "https://github.com/MichaelKarpe/mybot"
+keywords = ["rasa"]
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.11"
+rasa = "^3.6.0"
